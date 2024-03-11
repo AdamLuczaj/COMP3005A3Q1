@@ -28,12 +28,12 @@ def addStudent(cursor, first_name, last_name, email, enrollment_date):
 
 # Function that updates a student email based on a provided student_id
 def updateStudentEmail(cursor, student_id, new_email):
-    updateSQL = f"UPDATE students set email = '{new_email}' WHERE students.student_id = '{student_id}'"
+    updateSQL = f"UPDATE students set email = '{new_email}' WHERE student_id = '{student_id}'"
     cursor.execute(updateSQL)
 
 # Function that attempts to delete a student based on a provided student_id.
 def deleteStudent(cursor, student_id):
-    deleteSQL = f"DELETE FROM students WHERE students.student_id = '{student_id}'" 
+    deleteSQL = f"DELETE FROM students WHERE student_id = '{student_id}'" 
     cursor.execute(deleteSQL)
 
 try:
