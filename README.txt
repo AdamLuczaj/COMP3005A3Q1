@@ -21,7 +21,7 @@ Instructions to setup database for program runtime (using pgAdmin4 as discussed 
 6. Right click your database name and press Query Tool.
 7. In this menu copy and paste:
 
-CREATE TABLE Student ( 
+CREATE TABLE students ( 
 student_id SERIAL PRIMARY KEY, 
 first_name TEXT NOT NULL, 
 last_name TEXT NOT NULL, 
