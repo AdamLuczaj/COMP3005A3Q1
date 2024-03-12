@@ -2,6 +2,8 @@ COMP 3005 Winter 2024 Assignment 3 Question 1
 Student Name: Adam Luczaj
 Student #: 101196424
 
+Video URL: https://youtu.be/1pBLvLGJ1AQ
+
 Design decision:
 - I used psycopg3 because that is what were going to be using for the Final Project 1. Also, we are allowed to use any programming language for this assignment.
 - Database validation was not provided as in the brightspace discussion forum it was stated that we can assume all data will be of valid types and that this check doesn't have to be done.
